@@ -1,0 +1,279 @@
+body {
+    font-family: 'Bree Serif', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #a01f20;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #c73232;
+    border-radius: 5px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.search-container button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #555;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .overlay h1 {
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #a01f20;
+}
+
+h3 {
+    color: #fff;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto 20px;
+    border: 1px solid #a01f20;
+}
+
+.contenido_destacado_semana {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto 20px;
+}
+
+.contenido_destacado_semana figure {
+    width: 30%;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenido_destacado_semana figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.contenido_destacado_semana figcaption {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.contenido_destacado_semana figcaption ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido_destacado_semana figcaption ul li {
+    margin-bottom: 5px;
+}
+
+.contenido_destacado_semana figcaption ul li p {
+    margin: 0;
+    color: #555;
+}
+
+.contenido_destacado {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 500px;
+    margin: 20px auto;
+}
+
+.contenedor_imagen {
+    width: 30%;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor_imagen img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 150px;
+}
+
+.contenedor_imagen:hover img {
+    transform: scale(1.1);
+}
+
+.sobre_el_texto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+}
+
+.button-overlay {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #a01f20;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+footer .logo-section {
+    display: flex;
+    align-items: center;
+}
+
+footer .logo-section img {
+    margin-right: 10px;
+}
+
+footer .warning {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+footer .warning img {
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#logofoot {
+    width: 100px;
+    height: 100px;
+}
+
+#infofoot {
+    width: 40px;
+    height: 40px;
+}
+
+.rounded-container {
+    border-radius: 15px;
+}
+
+.rounded-image {
+    border-radius: 15px;
+}
+
+.separador {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.separador-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
